@@ -31,7 +31,7 @@ const Navbar = () => {
                 {
                     navItems.map((item,index)=>(
                         <li key={index}>
-                            <a href={item.href}>{item.label}</a>
+                            <a href={item.href} >{item.label}</a>
                         </li>
                     ))
                 }
@@ -68,8 +68,8 @@ const Navbar = () => {
             <ul>
                 {
                     navItems.map((item,index)=>(
-                        <li key={index} className='py-4'>
-                            <a href={item.href}>{item.label}</a>
+                        <li key={index} className='py-4' onClick={()=>setIsMobileMenuOpen(false)}>
+                            <a href={item.href} >{item.label}</a>
                         </li>
                     ))
                 }
