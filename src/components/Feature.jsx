@@ -4,7 +4,7 @@ import { features } from '../constants'
 const Feature = () => {
     return (
         //specifying min height for entire conent page
-        <div className='min-h-[700px] relative mt-20 border-b border-neutral-800'>
+        <div id='feature' className='min-h-[700px] relative mt-20 border-b border-neutral-800'>
             <div className='text-center'>
                 <span className='bg-neutral-900 text-purple-500 rounded-full h-6 text-sm font-medium px-2 py-1 uppercase'>
                     feature

@@ -5,7 +5,7 @@ import video2 from '../assets/coding2.mp4'
 const Hero = () => {
     return (
         // <div className='container mx-auto'>
-        <div className='flex flex-col items-center mt-6 lg:mt-20'>
+        <div id="hero" className='flex flex-col items-center mt-6 lg:mt-20'>
             <h1 className='text-4xl sm:text-6xl lg:text-7xl text-center tracking-wide'>
                 Innovative build tools <span className='bg-gradient-to-r from-purple-700 to-purple-950 text-transparent bg-clip-text'>for developers</span>
             </h1>
